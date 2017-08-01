@@ -51,10 +51,7 @@ MapWrapper.prototype.bounceMarkers = function() {
   })
 }
 
-// MapWrapper.prototype.infoWindow = function() {
-//   var marker = new google.maps.Marker({
-//       position: uluru,
-//       map: map,
-//       title: 'Uluru (Ayers Rock)'
-//     });
-// }
+MapWrapper.prototype.goToChicago = function() {
+
+}
+
