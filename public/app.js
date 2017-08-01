@@ -10,6 +10,7 @@ var initialize = function() {
   var button = document.querySelector("#bounce-button");
   button.addEventListener("click", mainMap.bounceMarkers.bind(mainMap));
 
+  var chicagoCenter = { lat: 55.857103, lng: -4.243951};
   var chicagoButton = document.querySelector("#chicago-button");
   chicagoButton.addEventListener("click", mainMap.goToChicago.bind(mainMap));
 
