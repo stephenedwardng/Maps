@@ -8,9 +8,14 @@ var MapWrapper = function(container, center, zoom) {
 }
 
 MapWrapper.prototype.addMarker = function(coords) {
+
+  var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
+
+
   var marker = new google.maps.Marker({
     position: coords,
-    map: this.googleMap
+    map: this.googleMap,
+    icon: iconBase + 'snack_bar.png'
   });
   this.markers.push(marker);
 
