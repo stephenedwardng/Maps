@@ -9,6 +9,7 @@ var initialize = function() {
 
   var button = document.querySelector("#bounce-button");
   button.addEventListener("click", mainMap.bounceMarkers.bind(mainMap));
+
 }
 
 window.addEventListener("load", initialize);
